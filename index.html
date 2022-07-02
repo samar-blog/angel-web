@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+   
+   <!-- navbar codes -->
+   <nav class="navbar">
+    <a href="#" class="logo"><i class="fas fas fa-baby-carriage"></i>Angel.</a>
+    <input type="checkbox" id="toggler">
+    <label for="toggler"><i class="fas fa-bars"></i></label>
+    <div class="menu2">
+        <ul class="list">
+            <li><a href="#home" class="active1">Angel</a></li>
+            <li><a href="#menu">Тарифы</a></li>
+            <li><a href="#order">Выбрать няню</a></li>
+        </ul>
+    </div>
+   </nav>
+
+<!-- search form  -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    <div class="container">
+        <!-- 1 slide -->
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content1">
+                    <h3>Преимущества Angel</h3>
+                    <p>Наша цель помочь не только драгоценным мамам найти ту самую няню, 
+                        которой она доверит самое дорогое в своей жизни, 
+                        но и найти лучшего друга для ребенка, 
+                        та которая поможет ему исследовать этот прекрасный и удивительный мир!
+                    </p>
+                    <a href="#" class="knopka">Выбрать няню</a>
+                </div>
+                <div class="kartinka">
+                    <img src="https://www.marypop.com/blog/wp-content/uploads/2021/05/auxiliaire_parentale_jpg-1024x683.jpg" alt="">
+                </div>
+            </div>
+        </div>
+<!-- 2 slide -->
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content1">
+                    <h3>Преимущества Angel</h3>
+                    <p>Предоставлять сервис высокого уровня  родителям,
+                         которые в поиске няни, а так же учитывать  пожелания родителей!
+                    </p>
+                    <a href="#" class="knopka">Выбрать няню</a>
+                </div>
+                <div class="kartinka">
+                    <img src="https://www.marypop.com/blog/wp-content/uploads/2021/05/auxiliaire_parentale_jpg-1024x683.jpg" alt="">
+                </div>
+            </div>
+        </div>
+<!-- 3 slide -->
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content1">
+                    <h3>Преимущества Angel</h3>
+                    <p>Максимально сокращать ваше время, 
+                        потраченное на поиск и добиваться результата в кратчайшие сроки,
+                         путём усердной работы.
+                    </p>
+                    <a href="#" class="knopka">Выбрать няню</a>
+                </div>
+                <div class="kartinka">
+                    <img src="https://www.marypop.com/blog/wp-content/uploads/2021/05/auxiliaire_parentale_jpg-1024x683.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="prev" onclick="prev()" > < </div>
+        <div id="next" onclick="next()"> > </div>
+        
+    </div>
+</section>
+
+<!-- home section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading">Тарифы</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="img11/Babysitting-Mobile.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Почасовая няня</h3>
+                <p>Eсли вам нужно уехать или решить свои дела, а ребенка не с кем оставить на пару часов, то мы предлагаем вам услуги почасовой няни! Круг обязанностей няни на частичную занятость может быть разным: в зависимости от того, что посчитают нужным родители малыша.</p>
+                <a href="#order" class="btn">Выбрать няню</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img11/nani.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Няня на полную ставку</h3>
+                <p>Если вы мама которая работает или у вас полная занятость и вы ищите няню, которая сможет взять на себя полную ответственность за развитие вашего ребенка, то мы предлагаем вам услуги няни на полную ставку! График работы, обязанности няни и оплата все будет обговариваться!</p>
+                <a href="#order" class="btn">Выбрать няню</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img11/onlne-babysitting-course-menard.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Няня с проживанием</h3>
+                <p>Если вы ищите няню, которая сможет помогать вам так же и в ночное время, то мы предлагаем вам услуги няни с проживанием! График работы, обязанности и оплата все будет обговариваться!</p>
+                <a href="#order" class="btn">Выбрать няню</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <h1 class="heading">ВЫБРАТЬ НЯНЮ</h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Ваше имя</span>
+                <input type="text" placeholder="введите ваше имя">
+            </div>
+            <div class="input">
+                <span>Ваш номер</span>
+                <input type="number" placeholder="введите свой номер">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Национальность</span>
+                <input type="text" placeholder="введите национальность няни">
+            </div>
+            <div class="input">
+                <span>Обязанности</span>
+                <input type="test" placeholder="Обязанности няни">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Зарплата</span>
+                <input type="number" placeholder="Зарплата няни">
+            </div>
+            <div class="input">
+                <span>График работы </span>
+                <input type="time">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Адрес</span>
+                <textarea name="" placeholder="(можете написать район и ориентир) " id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>Ваше сообщение</span>
+                <textarea name="" placeholder="введите ваше сообщение" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="Выбрать няню" class="btn">
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Локации</h3>
+            <a href="#">Uzbekistan</a>
+        </div>
+
+        <div class="box">
+            <h3>Cсылки</h3>
+            <a href="#home">Angel</a>
+            <a href="#home">Тарифы</a>
+            <a href="#order">Выбрать няню</a>
+        </div>
+
+        <div class="box">
+            <h3>Контакты</h3>
+            <a href="tel:+998999091764">+998999091764</a>
+            <a href="tel:998999091764">+998999091764</a>
+        </div>
+
+        <div class="box">
+            <h3>Соц сети</h3>
+            <a href="#">telegram</a>
+            <a href="#">instagram</a>
+            
+        </div>
+
+    </div>
+
+    <div class="credit"> IT PARK @ 2022 by <span>FERUZ&SAWA</span> </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<!-- <div class="loader-container">
+    <img src="https://cdn.dribbble.com/users/2077073/screenshots/6005120/loadin_gif.gif" alt="">
+</div>
+
+<!-- js file link -->
+<script src="js/script.js"></script>
+
+<script>
+   let slides = document.querySelectorAll('.slide-container');
+   let index = 0;
+
+// next function
+function next ()  { 
+    slides[index].classList.remove('active');
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('active');
+}
+
+// previous function
+function prev ()  { 
+    slides[index].classList.remove('active');
+    index = (index - 1 + slides.length) % slides.length;
+    slides[index].classList.add('active');
+}
+
+// auto playy
+// setInterval( next, 7000);
+</script>
+
+</body>
+</html>
